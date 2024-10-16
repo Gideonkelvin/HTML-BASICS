@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking Table</title>
+
+    <style>
+        /* Styling for the table container */
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            border-radius: 10px;
+            overflow: hidden;
+
+        }
+
+        /* Table header style */
+        th {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            text-align: left;
+            font-size: 18px;
+                       
+        }
+
+        /* Table body row style */
+        td {
+            padding: 10px;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        tr:nth-child(2) {
+            background-color: #E8F6E9;
+            border-bottom: black 1px solid;
+        }
+
+        tr:nth-child(3)
+        {
+            background-color: #F2F2F2;
+            color: green;
+            border-bottom: black 1px solid;
+        }
+
+        tr:nth-child(4)
+        {
+            background-color: #E8F6E9;
+            color: black;
+            border-bottom: green 5px solid;
+        }
+
+        td:first-child {
+            width: 10%;
+        }
+        td:nth-child(2) {
+            font-weight: bold;
+        }
+        h3{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+<h3>Ranking Table</h3>
+
+<!-- Table structure -->
+<table>
+  <tr>
+      <th>Rank</th>
+      <th>Name</th>
+      <th>Points</th>
+      <th>Team</th>
+  </tr>
+  <tr>
+      <td>1</td>
+      <td>Domenic</td>
+      <td>88,110</td>
+      <td>dcode</td>
+  </tr>
+  <tr>
+      <td>2</td>
+      <td>Sally</td>
+      <td>72,400</td>
+      <td>Students</td>
+  </tr>
+  <tr>
+      <td>3</td>
+      <td>Nick</td>
+      <td>52,300</td>
+      <td>dcode</td>
+  </tr>
+</table>
+
+</body>
+</html>
